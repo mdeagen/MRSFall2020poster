@@ -25,16 +25,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="14.112965"
-     inkscape:cy="72.286104"
+     inkscape:zoom="1.979899"
+     inkscape:cx="-7.0764047"
+     inkscape:cy="73.353465"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="2400"
-     inkscape:window-height="1271"
-     inkscape:window-x="3741"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="1341"
      inkscape:window-y="572"
      inkscape:window-maximized="1" />
   <metadata
@@ -55,13 +55,13 @@
      id="layer1"
      transform="translate(0,-244.08332)">
     <rect
-       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#999999;stroke-width:0.79375;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#999999;stroke-width:0.79374999;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect815"
        width="39.368477"
        height="29.360445"
-       x="6.5574298"
-       y="257.453"
-       ry="7.4688854" />
+       x="6.5574331"
+       y="257.45309"
+       ry="3.4598293" />
     <path
        style="opacity:1;vector-effect:none;fill:#4d4d4d;fill-opacity:1;stroke:#4d4d4d;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="m 18.331845,252.30431 25.22991,1.79539"

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="200"
+   viewBox="0 0 52.916665 52.916668"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="2b.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="52.131437"
+     inkscape:cy="84.035688"
+     inkscape:document-units="px"
+     inkscape:current-layer="g2809"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="1341"
+     inkscape:window-y="572"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-244.08332)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2641"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:console;font-style:normal;font-weight:normal;font-size:10.66666667px;line-height:1;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:console;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion2643"><rect
+           id="rect2645"
+           width="18.214285"
+           height="13.214286"
+           x="-134.64285"
+           y="180" /></flowRegion><flowPara
+         id="flowPara2647" /></flowRoot>    <g
+       id="g2809">
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect1440"
+         d="m 13.866536,254.94644 h 31.312422 l -2.774455,22.1465 c -11.822718,2.25401 -15.63559,12.84594 -32.271297,7.65401 z"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#999999;stroke-width:0.79374999;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text2633"
+         y="259.94708"
+         x="47.154095"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.18802285px;line-height:1;font-family:console;-inkscape-font-specification:console;letter-spacing:0px;word-spacing:0px;fill:#ff9955;fill-opacity:1;stroke:none;stroke-width:0.20512712"
+         xml:space="preserve"
+         transform="skewX(-7.1406646)"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#ff9955;stroke-width:0.20512712"
+           y="259.94708"
+           x="47.154095"
+           id="tspan2631"
+           sodipodi:role="line"><tspan
+   style="fill:#4d4d4d"
+   id="tspan5893">PREFIX</tspan> <tspan
+   id="tspan2689"
+   style="fill:#ffb380;stroke-width:0.20512712">:</tspan> <tspan
+   id="tspan2687"
+   style="fill:#aade87;stroke-width:0.20512712">&lt;http://...&gt;</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.18802285px;line-height:1;font-family:console;-inkscape-font-specification:console;letter-spacing:0px;word-spacing:0px;fill:#ff9955;fill-opacity:1;stroke:none;stroke-width:0.20512712"
+         x="47.080837"
+         y="268.87619"
+         id="text2637"
+         transform="skewX(-7.1406646)"><tspan
+           sodipodi:role="line"
+           id="tspan2635"
+           x="47.080837"
+           y="268.87619"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#4d4d4d;stroke-width:0.20512712">SELECT * WHERE {</tspan><tspan
+           id="tspan2639"
+           sodipodi:role="line"
+           x="47.080837"
+           y="271.14178"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#ff9955;stroke-width:0.20512712" /></text>
+      <text
+         id="text2653"
+         y="281.03552"
+         x="47.227352"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.18802285px;line-height:1;font-family:console;-inkscape-font-specification:console;letter-spacing:0px;word-spacing:0px;fill:#ff9955;fill-opacity:1;stroke:none;stroke-width:0.20512712"
+         xml:space="preserve"
+         transform="skewX(-7.1406646)"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#4d4d4d;stroke-width:0.20512712"
+           y="281.03552"
+           x="47.227352"
+           id="tspan2649"
+           sodipodi:role="line">}</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#ff9955;stroke-width:0.20512712"
+           y="283.30112"
+           x="47.227352"
+           sodipodi:role="line"
+           id="tspan2651" /></text>
+      <text
+         id="text2659"
+         y="271.71027"
+         x="49.212734"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.18802285px;line-height:1;font-family:console;-inkscape-font-specification:console;letter-spacing:0px;word-spacing:0px;fill:#ff9955;fill-opacity:1;stroke:none;stroke-width:0.20512712"
+         xml:space="preserve"
+         transform="skewX(-7.1406646)"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#ff9955;stroke-width:0.20512712"
+           y="271.71027"
+           x="49.212734"
+           id="tspan2655"
+           sodipodi:role="line"><tspan
+   id="tspan2671"
+   style="fill:#aade87;stroke-width:0.20512712">?s</tspan> <tspan
+   id="tspan2667"
+   style="fill:#4d4d4d;stroke-width:0.20512712">a</tspan> <tspan
+   style="fill:#ffb380"
+   id="tspan5903">m:Material</tspan> <tspan
+   id="tspan2695"
+   style="fill:#4d4d4d;stroke-width:0.20512712">;</tspan></tspan><tspan
+           id="tspan2663"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#ff9955;stroke-width:0.20512712"
+           y="273.97586"
+           x="49.212734"
+           sodipodi:role="line">   <tspan
+   style="fill:#ffb380"
+   id="tspan5907">:hasAttribute</tspan> <tspan
+   id="tspan2685"
+   style="fill:#aade87;stroke-width:0.20512712">?x </tspan><tspan
+   style="fill:#4d4d4d;stroke-width:0.20512712"
+   id="tspan2701">.</tspan></tspan><tspan
+           id="tspan2661"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#ff9955;stroke-width:0.20512712"
+           y="276.24142"
+           x="49.212734"
+           sodipodi:role="line"><tspan
+   id="tspan2679"
+   style="fill:#aade87;stroke-width:0.20512712">?x</tspan> <tspan
+   id="tspan2691"
+   style="fill:#4d4d4d;stroke-width:0.20512712">a</tspan> <tspan
+   id="tspan2675"
+   style="fill:#aade87;stroke-width:0.20512712">?attr</tspan> <tspan
+   id="tspan2697"
+   style="fill:#4d4d4d;stroke-width:0.20512712">;</tspan></tspan><tspan
+           id="tspan2665"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#ff9955;stroke-width:0.20512712"
+           y="278.50702"
+           x="49.212734"
+           sodipodi:role="line">   <tspan
+   style="fill:#ffb380"
+   id="tspan5909">:hasValue</tspan> <tspan
+   id="tspan2683"
+   style="fill:#aade87;stroke-width:0.20512712">?val </tspan></tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#ff9955;stroke-width:0.20512712"
+           y="280.77258"
+           x="49.212734"
+           sodipodi:role="line"
+           id="tspan2657" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.18802285px;line-height:1;font-family:console;-inkscape-font-specification:console;letter-spacing:0px;word-spacing:0px;fill:#ff9955;fill-opacity:1;stroke:none;stroke-width:0.20512712"
+         x="47.154095"
+         y="263.05573"
+         id="text2769"
+         transform="skewX(-7.1406646)"><tspan
+           sodipodi:role="line"
+           id="tspan2767"
+           x="47.154095"
+           y="263.05573"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#ff9955;stroke-width:0.20512712"><tspan
+   style="fill:#4d4d4d"
+   id="tspan5895">PREFIX</tspan> <tspan
+   id="tspan2771"
+   style="fill:#ffb380">m</tspan><tspan
+   style="fill:#ffb380;stroke-width:0.20512712"
+   id="tspan2763">:</tspan> <tspan
+   style="fill:#aade87;stroke-width:0.20512712"
+   id="tspan2765">&lt;http://...&gt;</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

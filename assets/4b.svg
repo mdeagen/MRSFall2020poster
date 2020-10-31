@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="200"
+   viewBox="0 0 52.916665 52.916668"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="4b.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="65.092798"
+     inkscape:cy="105.32344"
+     inkscape:document-units="px"
+     inkscape:current-layer="g6687"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="1341"
+     inkscape:window-y="572"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-244.08332)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2641"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:console;font-style:normal;font-weight:normal;font-size:10.66666667px;line-height:1;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:console;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion2643"><rect
+           id="rect2645"
+           width="18.214285"
+           height="13.214286"
+           x="-134.64285"
+           y="180" /></flowRegion><flowPara
+         id="flowPara2647" /></flowRoot>    <g
+       id="g6687">
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect1440"
+         d="m 13.866535,254.94644 h 31.312422 l -2.774455,22.1465 c -11.822718,2.25401 -15.63559,12.84594 -32.271297,7.65401 z"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#999999;stroke-width:0.79374999;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text2659"
+         y="259.03079"
+         x="46.794941"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.71552145px;line-height:1;font-family:console;-inkscape-font-specification:console;letter-spacing:0px;word-spacing:0px;fill:#ff9955;fill-opacity:1;stroke:none;stroke-width:0.16083013"
+         xml:space="preserve"
+         transform="skewX(-7.1406646)"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#4d4d4d;stroke-width:0.16083013"
+           y="259.03079"
+           x="46.794941"
+           sodipodi:role="line"
+           id="tspan2657">{</tspan><tspan
+           id="tspan6010"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#4d4d4d;stroke-width:0.16083013"
+           y="260.80713"
+           x="46.794941"
+           sodipodi:role="line">  &quot;<tspan
+   id="tspan6034"
+   style="fill:#ffb380;stroke-width:0.16083013">$schema</tspan>&quot;: <tspan
+   id="tspan6012"
+   style="fill:#aade87;stroke-width:0.16083013">&quot;./vega-lite/.&quot;</tspan>,</tspan><tspan
+           id="tspan5998"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#4d4d4d;stroke-width:0.16083013"
+           y="262.58347"
+           x="46.794941"
+           sodipodi:role="line">  &quot;<tspan
+   id="tspan6036"
+   style="fill:#ffb380;stroke-width:0.16083013">mark</tspan>&quot;: <tspan
+   id="tspan6014"
+   style="fill:#aade87;stroke-width:0.16083013">&quot;bar&quot;</tspan>,</tspan><tspan
+           id="tspan6000"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#4d4d4d;stroke-width:0.16083013"
+           y="264.35977"
+           x="46.794941"
+           sodipodi:role="line">  &quot;<tspan
+   id="tspan6038"
+   style="fill:#ffb380;stroke-width:0.16083013">encoding</tspan>&quot;:{</tspan><tspan
+           id="tspan6004"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#4d4d4d;stroke-width:0.16083013"
+           y="266.13611"
+           x="46.794941"
+           sodipodi:role="line">    &quot;<tspan
+   id="tspan6040"
+   style="fill:#ffb380;stroke-width:0.16083013">x</tspan>&quot;:{</tspan><tspan
+           id="tspan6016"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#4d4d4d;stroke-width:0.16083013"
+           y="267.91245"
+           x="46.794941"
+           sodipodi:role="line">      &quot;<tspan
+   style="fill:#ffb380"
+   id="tspan7292">field</tspan>&quot;: <tspan
+   id="tspan6026"
+   style="fill:#aade87;stroke-width:0.16083013">&quot;s&quot;</tspan>,</tspan><tspan
+           id="tspan6024"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#4d4d4d;stroke-width:0.16083013"
+           y="269.68878"
+           x="46.794941"
+           sodipodi:role="line">      &quot;<tspan
+   style="fill:#ffb380"
+   id="tspan7294">type</tspan>&quot;: <tspan
+   id="tspan6028"
+   style="fill:#aade87;stroke-width:0.16083013">&quot;nominal&quot;</tspan></tspan><tspan
+           id="tspan6008"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#4d4d4d;stroke-width:0.16083013"
+           y="271.46512"
+           x="46.794941"
+           sodipodi:role="line">    },</tspan><tspan
+           id="tspan6006"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#4d4d4d;stroke-width:0.16083013"
+           y="273.24142"
+           x="46.794941"
+           sodipodi:role="line">    &quot;<tspan
+   id="tspan6042"
+   style="fill:#ffb380;stroke-width:0.16083013">y</tspan>&quot;:{</tspan><tspan
+           id="tspan6020"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#4d4d4d;stroke-width:0.16083013"
+           y="275.01776"
+           x="46.794941"
+           sodipodi:role="line">      &quot;<tspan
+   style="fill:#ffb380"
+   id="tspan7296">field</tspan>&quot;: <tspan
+   id="tspan6030"
+   style="fill:#aade87;stroke-width:0.16083013">&quot;val&quot;</tspan>,</tspan><tspan
+           id="tspan6022"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#4d4d4d;stroke-width:0.16083013"
+           y="276.7941"
+           x="46.794941"
+           sodipodi:role="line">      &quot;<tspan
+   style="fill:#ffb380"
+   id="tspan7298">type</tspan>&quot;: <tspan
+   id="tspan6032"
+   style="fill:#aade87;stroke-width:0.16083013">&quot;quantitative&quot;</tspan></tspan><tspan
+           id="tspan6018"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#4d4d4d;stroke-width:0.16083013"
+           y="278.57043"
+           x="46.794941"
+           sodipodi:role="line">    }</tspan><tspan
+           id="tspan6002"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#4d4d4d;stroke-width:0.16083013"
+           y="280.34674"
+           x="46.794941"
+           sodipodi:role="line">  }</tspan><tspan
+           id="tspan5996"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Courier New';-inkscape-font-specification:'Courier New Bold';fill:#4d4d4d;stroke-width:0.16083013"
+           y="282.12308"
+           x="46.794941"
+           sodipodi:role="line">}</tspan></text>
+    </g>
+  </g>
+</svg>

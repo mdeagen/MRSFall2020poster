@@ -32,12 +32,12 @@
             <p>Knowledge graphs enable a <span style="font-weight: bold;">web of <span style="font-style: italic;">data</span></span></p>
             <div class="r-stack">
               <img class="fragment" data-fragment-index="0" data-autoslide="5" style="opacity: 0;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_first.svg"> <!--placeholder for timing-->
-              <img class="fragment" data-fragment-index="5" data-autoslide="5000" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_linked.svg">
-              <img class="fragment" data-fragment-index="1" data-autoslide="1000" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_first.svg">
-              <img class="fragment" data-fragment-index="2" data-autoslide="1000" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_KGcallout.svg">
-              <img class="fragment" data-fragment-index="3" data-autoslide="4000" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_edges.svg">
-              <img class="fragment" data-fragment-index="2" data-autoslide="1000" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_nodes.svg">
-              <img class="fragment" data-fragment-index="4" data-autoslide="2000" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_W3C.svg">
+              <img class="fragment" data-fragment-index="4" data-autoslide="5000" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_linked.svg">
+              <img class="fragment" data-fragment-index="1" data-autoslide="2000" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_first.svg">
+              <img class="fragment" data-fragment-index="1" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_KGcallout.svg">
+              <img class="fragment" data-fragment-index="2" data-autoslide="4000" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_edges.svg">
+              <img class="fragment" data-fragment-index="1" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_nodes.svg">
+              <img class="fragment" data-fragment-index="3" data-autoslide="2000" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_W3C.svg">
             </div>
             
             <aside class="notes">A knowledge graph database stores data and the links between data in an extensible, machine-readable format. By following semantic web standards, we enable interoperability between MaterialsMine and other publicly available datasets, now and in the future.</aside>
@@ -244,7 +244,7 @@
               <li><a href="https://www.w3.org/TR/sparql11-query/" target="_blank">SPARQL 1.1 Query Language</a></li>
               <li>Satyanarayan, A., Moritz, D., Wongsuphasawat, K., & Heer, J. (2016). Vega-lite: A grammar of interactive graphics. <span style="font-style: italic;">IEEE transactions on visualization and computer graphics</span>, 23(1), 341-350. DOI: <a href="https://doi.org/10.1109/TVCG.2016.2599030" target="_blank">10.1109/TVCG.2016.2599030</a>. <a href="https://github.com/vega/vega-lite" target="_blank">Github</a>.</li>
             </ul>
-            <p style="font-size: 50%;">HTML presentation built using the <a href="https://revealjs.com/" target="_blank">RevealJS</a> library from <a href="https://github.com/hakimel/reveal.js" target="_blank">@hakimel</a>. 
+            <p style="font-size: 40%;">HTML presentation built using the <a href="https://revealjs.com/" target="_blank">RevealJS</a> library from <a href="https://github.com/hakimel/reveal.js" target="_blank">@hakimel</a>. 
               Use the <span style="font-weight: bold;">spacebar</span> or <span style="font-weight: bold;">arrow keys</span> (or <span style="font-weight: bold;">swipe</span> on touch-based device) to navigate.
               Press <span style="font-weight: bold;">o</span> or <span style="font-weight: bold;">Esc</span> for slide overview, or <span style="font-weight: bold;">s</span> to view speaker notes.
               Press <span style="font-weight: bold;">a</span> to toggle auto-advancing of slides.
@@ -266,8 +266,8 @@
 			Reveal.initialize({
 				hash: true,
 
-        autoSlide: 20000,
-        autoSlideStoppable: true,
+        autoSlide: 20000, // set false to disable
+        autoSlideStoppable: false, // set false to disable and to hide controls
         loop: false,
 
 				// Learn about plugins: https://revealjs.com/plugins/

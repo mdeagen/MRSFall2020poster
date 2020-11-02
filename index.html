@@ -26,7 +26,7 @@
               <p>Michael.Deagen@uvm.edu</p>
             </div>
             
-            <aside class="notes">My name is Michael Deagen, here to give you an overview of the platform for data visualization we have built on top of the MaterialsMine Knowledge Graph, an open data resource of curated experimental research data.</aside>
+            <aside class="notes">My name is Michael Deagen, here to give you an overview of the platform for data visualization we have built for the MaterialsMine Knowledge Graph, an open data resource of curated materials research data.</aside>
           </section>
           <section data-background="#000000">
             <p>Knowledge graphs enable a <span style="font-weight: bold;">web of <span style="font-style: italic;">data</span></span></p>
@@ -48,7 +48,7 @@
               <li class="fragment">Share information <span style="font-weight: bold;">visually</span> and <span style="font-weight: bold;">interactively</span></li>
               <li class="fragment">Build <span style="font-weight: bold;">collection</span> of FAIR data charts</li>
             </ul>
-            <aside class="notes">Our new data visualization platform helps us to explore and share information from our knowledge graph in a human-readable format, while providing authors and viewers of charts with autonomy and transparency.</aside>
+            <aside class="notes">Our new data visualization platform helps us to explore our linked datasets, share information interactively from our knowledge graph, and build a collection of charts that take full advantage of our FAIR data framework.</aside>
           </section>
         </section>
 				
@@ -93,7 +93,7 @@
               </p>
             </div>
 
-            <aside class="notes">Imagine you have to prepare a meal from scratch. You go to the grocery store with a list and add your ingredients to the cart. When you get home, you prepare those ingredients by following a recipe. After you finish cooking, you serve the meal.</aside>
+            <aside class="notes">Imagine you have to prepare a meal from scratch. You go to the market with your grocery list and add ingredients to your cart. When you get home, you prepare the ingredients following a recipe, finish cooking, and serve the meal.</aside>
           </section>
           <section data-background="#fdfdfd">
             <p>Most charts provide <span style="font-weight: bold;">limited or no context</span> for data</p>
@@ -110,7 +110,7 @@
               <img src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/5a.svg">
             </div>
             
-            <aside class="notes">Many charts you find in journal articles are like the meal but without a direct link to the source “ingredients” or how they were prepared. With our platform, you can see the full process all the way back to the grocery store.</aside>
+            <aside class="notes">The problem with many charts you find is that they only provide one view of the data without a direct link to the raw data or how exactly those data were prepared.</aside>
           </section>
           
           <section data-background="#fdfdfd">
@@ -164,7 +164,7 @@
               </p>
             </div>
 
-            <aside class="notes">If you think of the grocery store as a database, your grocery list is the query, or request, for a subset of data from that database. The groceries in your cart are data returned by your query. The recipe is like the chart specification that defines the visual encodings of the data, and the meal is the chart which, by the way, you can specify with interactive elements.</aside>
+            <aside class="notes">With our platform, you can interact with the full process. We accomplish this by treating the market as our database, where the grocery list is the query, or request from the database. The groceries in your cart comprise the dataset returned by your query. The recipe is the chart specification that defines the visual encodings of the data, and the meal is the final chart.</aside>
           </section>
           <section data-background="#fdfdfd">
             <h2>Benefits</h2>
@@ -173,7 +173,7 @@
               <li class="fragment">Charts with <span style="font-weight: bold;">interactive elements</span></li>
               <li class="fragment"><span style="font-weight: bold;">Real-time updating</span> of chart data</li>
             </ul>
-            <aside class="notes">This approach to data visualization enables context for the data, the charts can be specified with interactive elements, and by embedding a data query can be automatically updated if new data are added to the knowledge graph.</aside>
+            <aside class="notes">This approach to data visualization enables context for the data, the charts can be specified with interactive elements, and by embedding the data query a chart can be automatically updated if new data are added to the knowledge graph.</aside>
           </section>
         </section>
 
@@ -185,7 +185,7 @@
               <img style="padding-left: 25px; padding-right: 25px;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/panel_Vega-Lite.svg">
               <img src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/panel_one-to-many.svg">
             </div>
-            <aside class="notes">The query, written in SPARQL, and the chart specification, written in Vega-Lite, are high-level abstractions that let you create charts with minimal lines of code. Low-level implementation details are handled automatically by the query engine and chart renderer.</aside>
+            <aside class="notes">The query, written in SPARQL, and the chart specification, written in Vega-Lite, are high-level abstractions that let you build charts with minimal lines of code. All the low-level implementation details are handled automatically by the query engine and chart renderer. Just as there are many ways to prepare food from the same ingredients, there are many ways to specify a chart from a given dataset.</aside>
           </section>
           <section data-background="#000000">
             <p>Chart metadata (query, spec, title, description) added to knowledge graph, findable via <a href="https://materialsmine.org/wi/gallery" target="_blank">Charts Gallery</a></p>
@@ -193,7 +193,7 @@
               <img src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/chart-metadata-gallery.svg">
             </div>
             
-            <aside class="notes">When a chart is published to our platform, it actually becomes part of the knowledge graph and can be accessed through our Charts Gallery along with its metadata including the title, description, SPARQL query, and Vega-Lite specification.</aside>
+            <aside class="notes">When a chart is published to our platform, it actually becomes part of the knowledge graph and can be accessed through our Charts Gallery along with its metadata. With this approach, the knowledge graph grows as users create useful views of the underlying datasets, forming a positive feedback loop.</aside>
           </section>
         </section>
         

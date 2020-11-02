@@ -9,7 +9,7 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+		<link rel="stylesheet" href="dist/theme/white.css" id="theme">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
@@ -17,57 +17,239 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
-					<h2>Intro</h2>
-					<aside class="notes">My name is Michael Deagen, here to give you an overview of the platform for data visualization we have built on top of the MaterialsMine Knowledge Graph, an open data resource of curated experimental research data.</aside>
-				</section>
-				<section>
-					<h2>Background</h2>
-					<aside class="notes">A knowledge graph database stores data and the links between data in an extensible, machine-readable format. By following semantic web standards, we enable interoperability between MaterialsMine and other publicly available datasets, now and in the future.</aside>
-				</section>
-				<section>
-					<h2>Objective</h2>
-					<aside class="notes">Our new data visualization platform helps us to explore and share information from our knowledge graph in a human-readable format, while providing authors and viewers of charts with autonomy and transparency.</aside>
-				</section>
-				<section>
-          <h2>Analogy</h2>
-          <div class="r-hstack justify-center">
-            <img class="fragment" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/1a.svg">
-            <img class="fragment" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+        <section data-background="#fdfdfd">
+          <section data-background="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/backgrounds/combined-landing-banner-1400x275.jpg" data-background-size="contain" data-background-position="top">
+            <div style="margin-top: 30%;">
+              <p style="font-weight: bold;">Authoring Interactive and Extensible Visualizations from a Materials Knowledge Graph</p>
+              <p>Michael Deagen, Ph.D. | <span style="color: #007155;">University of Vermont</span></p>
+              <p>F.MT07.10.05</p>
+              <p>Michael.Deagen@uvm.edu</p>
+            </div>
+            
+            <aside class="notes">My name is Michael Deagen, here to give you an overview of the platform for data visualization we have built on top of the MaterialsMine Knowledge Graph, an open data resource of curated experimental research data.</aside>
+          </section>
+          <section data-background="#000000">
+            <p>Knowledge graphs enable a <span style="font-weight: bold;">web of <span style="font-style: italic;">data</span></span></p>
+            <div class="r-stack">
+              <img class="fragment" data-fragment-index="4" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_linked.svg">
+              <img class="fragment" data-fragment-index="0" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_first.svg">
+              <img class="fragment" data-fragment-index="1" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_KGcallout.svg">
+              <img class="fragment" data-fragment-index="2" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_edges.svg">
+              <img class="fragment" data-fragment-index="1" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_nodes.svg">
+              <img class="fragment" data-fragment-index="3" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_W3C.svg">
+            </div>
+            
+            <aside class="notes">A knowledge graph database stores data and the links between data in an extensible, machine-readable format. By following semantic web standards, we enable interoperability between MaterialsMine and other publicly available datasets, now and in the future.</aside>
+          </section>
+          <section data-background="#000000">
+            <h2>Objectives</h2>
+            <ul>
+              <li><span style="font-weight: bold;">Explore</span> datasets linked by knowledge graph</li>
+              <li class="fragment">Share information <span style="font-weight: bold;">visually</span> and <span style="font-weight: bold;">interactively</span></li>
+              <li class="fragment">Build <span style="font-weight: bold;">collection</span> of FAIR data charts</li>
+            </ul>
+            <aside class="notes">Our new data visualization platform helps us to explore and share information from our knowledge graph in a human-readable format, while providing authors and viewers of charts with autonomy and transparency.</aside>
+          </section>
+        </section>
+				
+        <section>
+          <section data-background="#fdfdfd">
+            <p>How would you prepare a meal from scratch?</p>
+            
+            <div class="r-hstack justify-center">
+              <div class="fragment fade-in-then-semi-out" data-fragment-index="1">
+                <img class="fragment grow" data-fragment-index="1" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/1a.svg">
+              </div>
+                            
+              <img class="fragment fade-in-then-semi-out" data-fragment-index="2" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+              <div class="fragment fade-in-then-semi-out" data-fragment-index="2">
+                <img class="fragment grow" data-fragment-index="2" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/2a.svg">               
+              </div>
+                          
+              <img class="fragment fade-in-then-semi-out" data-fragment-index="3" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+              <div class="fragment fade-in-then-semi-out" data-fragment-index="3">
+                <img class="fragment grow" data-fragment-index="3" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/3a.svg">
+              </div>
+                           
+              <img class="fragment fade-in-then-semi-out" data-fragment-index="4" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+              <div class="fragment fade-in-then-semi-out" data-fragment-index="4">
+                <img class="fragment grow" data-fragment-index="4" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/4a.svg">
+              </div>
+              
+              <img class="fragment fade-in" data-fragment-index="5" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+              <div class="fragment fade-in" data-fragment-index="5">
+                <img class="fragment grow" data-fragment-index="5" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/5a.svg">
+              </div>
+              
+            </div>
 
-            <img class="fragment" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/2a.svg">
-            <img class="fragment" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+            <div>
+              <p>
+                <span class="fragment fade-in-then-semi-out" data-fragment-index="1">Market</span>
+                <span class="fragment fade-in-then-semi-out" data-fragment-index="2">+ List</span>
+                <span class="fragment fade-in-then-semi-out" data-fragment-index="3">+ Ingredients</span>
+                <span class="fragment fade-in-then-semi-out" data-fragment-index="4">+ Recipe</span>
+                <span class="fragment fade-in" data-fragment-index="5">= Meal</span>
+              </p>
+            </div>
 
-            <img class="fragment" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/3a.svg">
-            <img class="fragment" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+            <aside class="notes">Imagine you have to prepare a meal from scratch. You go to the grocery store with a list and add your ingredients to the cart. When you get home, you prepare those ingredients by following a recipe. After you finish cooking, you serve the meal.</aside>
+          </section>
+          <section data-background="#fdfdfd">
+            <p>Most charts provide <span style="font-weight: bold;">limited or no context</span> for data</p>
+            
+            <div class="r-hstack justify-center">
+              <img src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/1a_gray-redX.svg">
+              <img style="opacity: 0;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+              <img src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/2a_gray-redX.svg">
+              <img style="opacity: 0;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+              <img src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/3a_gray-redX.svg">
+              <img style="opacity: 0;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+              <img src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/4a_gray-redX.svg">
+              <img style="opacity: 0;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+              <img src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/5a.svg">
+            </div>
+            
+            <aside class="notes">Many charts you find in journal articles are like the meal but without a direct link to the source “ingredients” or how they were prepared. With our platform, you can see the full process all the way back to the grocery store.</aside>
+          </section>
+          
+          <section data-background="#fdfdfd">
+            <p>Our charts are defined by a <span style="font-weight: bold;">data query</span> and <span style="font-weight: bold;">chart spec</span></p>
+            <div class="r-stack">
+              <div class="r-hstack justify-center">
+                <img class="fragment fade-out" data-fragment-index="6" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/1a_gray50.svg">
+                <img class="fragment fade-in-then-semi-out" data-fragment-index="7" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+                <img class="fragment fade-out" data-fragment-index="7" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/2a_gray50.svg">
+                <img class="fragment fade-in-then-semi-out" data-fragment-index="8" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+                <img class="fragment fade-out" data-fragment-index="8" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/3a_gray50.svg">
+                <img class="fragment fade-in-then-semi-out" data-fragment-index="9" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+                <img class="fragment fade-out" data-fragment-index="9" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/4a_gray50.svg">
+                <img class="fragment fade-in" data-fragment-index="10" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+                <img class="fragment fade-out" data-fragment-index="10" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/5a_gray50.svg">
+              </div>
+              <div class="r-hstack justify-center">
+                <div class="fragment fade-in-then-semi-out" data-fragment-index="6">
+                  <img class="fragment grow" data-fragment-index="6" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/1b.svg">
+                </div>
+                <img style="opacity: 0;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+                <div class="fragment fade-in-then-semi-out" data-fragment-index="7">
+                  <img class="fragment grow" data-fragment-index="7" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/2b.svg">
+                </div>
+                
+                <img style="opacity: 0;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+                <div class="fragment fade-in-then-semi-out" data-fragment-index="8">
+                  <img class="fragment grow" data-fragment-index="8" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/3b.svg">
+                </div>
+                
+                <img style="opacity: 0;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+                <div class="fragment fade-in-then-semi-out" data-fragment-index="9">
+                  <img class="fragment grow" data-fragment-index="9" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/4b.svg">
+                </div>
+                
+                <img style="opacity: 0;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+                <div class="fragment fade-in" data-fragment-index="10">
+                  <img class="fragment grow" data-fragment-index="10" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/5b.svg">
+                </div>
+                
+              </div>
+            </div>
+            
+            <div class="r-hstack justify-center">
+              <p>
+                <span class="fragment fade-in-then-semi-out" data-fragment-index="6">Database</span>
+                <span class="fragment fade-in-then-semi-out" data-fragment-index="7">+ Query</span>
+                <span class="fragment fade-in-then-semi-out" data-fragment-index="8">+ Dataset</span>
+                <span class="fragment fade-in-then-semi-out" data-fragment-index="9">+ Spec</span>
+                <span class="fragment fade-in" data-fragment-index="10">= Chart</span>
+              </p>
+            </div>
 
-            <img class="fragment" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/4a.svg">
-            <img class="fragment" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/arrow.svg">
+            <aside class="notes">If you think of the grocery store as a database, your grocery list is the query, or request, for a subset of data from that database. The groceries in your cart are data returned by your query. The recipe is like the chart specification that defines the visual encodings of the data, and the meal is the chart which, by the way, you can specify with interactive elements.</aside>
+          </section>
+          <section data-background="#fdfdfd">
+            <h2>Benefits</h2>
+            <ul>
+              <li>Embed <span style="font-weight: bold;">context</span> of data</li>
+              <li class="fragment">Charts with <span style="font-weight: bold;">interactive elements</span></li>
+              <li class="fragment"><span style="font-weight: bold;">Real-time updating</span> of chart data</li>
+            </ul>
+            <aside class="notes">This approach to data visualization enables context for the data, the charts can be specified with interactive elements, and by embedding a data query can be automatically updated if new data are added to the knowledge graph.</aside>
+          </section>
+        </section>
 
-            <img class="fragment" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/5a.svg">
-          </div>
-					<aside class="notes">Imagine you have to prepare a meal from scratch. You go to the grocery store with a list and add your ingredients to the cart. When you get home, you prepare those ingredients by following a recipe. After you finish cooking, you serve the meal.</aside>
-				</section>
-				<section>
-					<h2>Potential Benefit</h2>
-					<aside class="notes">Many charts you find in journal articles are like the meal but without a direct link to the source “ingredients” or how they were prepared. With our platform, you can see the full process all the way back to the grocery store.</aside>
-				</section>
-				<section>
-					<h2>Our Approach</h2>
-					<aside class="notes">If you think of the grocery store as a database, your grocery list is the query, or request, for a subset of data from that database. The groceries in your cart are data returned by your query. The recipe is like the chart specification that defines the visual encodings of the data, and the meal is the chart which, by the way, you can specify with interactive elements. Just like there are many ways to prepare the same ingredients using different recipes, there are many ways to specify a chart from a given dataset, underscoring the responsibility of chart authors to exercise judgment when designing and specifying charts.</aside>
-				</section>
-				<section>
-					<h2>Implementation</h2>
-					<aside class="notes">The query, written in SPARQL, and the chart specification, written in Vega-Lite, are high-level abstractions that let you create charts with minimal lines of code. Low-level implementation details are handled automatically by the query engine and chart renderer.</aside>
-				</section>
-				<section>
-					<h2>Results</h2>
-					<aside class="notes">When a chart is published to our platform, it actually becomes part of the knowledge graph and can be accessed through our Charts Gallery along with its metadata including the title, description, SPARQL query, and Vega-Lite specification.</aside>
-				</section>
-				<section>
-					<h2>Acknowledgements</h2>
-					<aside class="notes">Thank you to everyone who has contributed to this work, the MaterialsMine team, and all those out there advancing FAIR data practices in the materials research community. For more information about this project visit materialsmine.org.</aside>
-				</section>
+        <section>
+          <section data-background="#000000">
+            <p>Combining <span style="font-style: italic; color: #aaeeff; font-weight: bold;">SPARQL</span> query language with <span style="font-style: italic; color: #aa87de; font-weight: bold;">Vega-Lite</span> chart specification language lets us define <span style="font-weight: bold;">custom, interactive charts</span> with <span style="font-weight: bold;">minimal lines of code</span></p>
+            <div class="r-hstack r-stretch">
+              <img src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/panel_SPARQL.svg">
+              <img style="padding-left: 25px; padding-right: 25px;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/panel_Vega-Lite.svg">
+              <img src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/panel_one-to-many.svg">
+            </div>
+            <aside class="notes">The query, written in SPARQL, and the chart specification, written in Vega-Lite, are high-level abstractions that let you create charts with minimal lines of code. Low-level implementation details are handled automatically by the query engine and chart renderer.</aside>
+          </section>
+          <section data-background="#000000">
+            <p>Chart metadata (query, spec, title, description) added to knowledge graph, findable via <a href="https://materialsmine.org/wi/gallery" target="_blank">Charts Gallery</a></p>
+            <div class="r-stretch">
+              <img src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/chart-metadata-gallery.svg">
+            </div>
+            
+            <aside class="notes">When a chart is published to our platform, it actually becomes part of the knowledge graph and can be accessed through our Charts Gallery along with its metadata including the title, description, SPARQL query, and Vega-Lite specification.</aside>
+          </section>
+        </section>
+        
+        <section>
+          <section>
+            <div class="r-vstack">
+              <div class="r-hstack">
+                <div style="padding-right: 100px;">
+                  <p style="font-weight: bold; font-size: 150%;">Thank you!</p>
+                  
+                  <ul style="font-size: 65%; padding-left: 50px;">
+                    <li>Jamie McCusker (<span style="color: #d6001c;">RPI</span>)</li>
+                    <li>Tolulomo Fateye (<span style="color: #00539b;">Duke</span>)</li>
+                    <li>Sam Stouffer (<span style="color: #d6001c;">RPI</span>)</li>
+                    <li>L. Cate Brinson (<span style="color: #00539b;">Duke</span>)</li>
+                    <li>Deborah L. McGuinness (<span style="color: #d6001c;">RPI</span>)</li>
+                    <li>Linda S. Schadler (<span style="color: #007155;">UVM</span>)</li>
+                    <li>...rest of MaterialsMine team!</li>
+                  </ul>
+                </div>
+                <div style="max-width: 30%; padding-left: 50px; padding-right: 50px; border: #2f2f2f; border-width: 4px;">
+                  <img style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/backgrounds/amlccd_v009i008_medium.jpg">
+                </div>
+              </div>
+              <div class="r-hstack">
+                <a style="font-size: 150%; padding-right: 100px;" href="https://materialsmine.org/" target="_blank">materialsmine.org</a>
+                <img style="max-width: 10%;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/logos/NSF_4-Color_vector_Logo.svg">
+              </div>
+              <div class="r-hstack" style="padding: 5%;">
+                <img style="max-width: 17%;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/logos/UVMLogoSolid7484.png">
+                <img style="max-width: 10%; padding-left: 20px;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/logos/duke_wordmark_royalblue_00539B.svg">
+                <img style="max-width: 20%; padding-left: 20px;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/logos/RF0010-01%20Rensselaer%20Large%20Logo%20RGB-TwoColor.png">
+                <img style="max-width: 25%; padding-left: 20px;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/logos/Northwestern_purple_RGB.jpg">
+                <img style="max-width: 14%; padding-left: 20px;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/logos/Caltech_LOGO-Orange_RGB.png">
+              </div>
+            </div>
+            
+            <aside class="notes">Thank you to everyone who has contributed to this work, the MaterialsMine team, and all those out there advancing FAIR data practices in the materials research community. For more information about this project visit materialsmine.org.</aside>
+          </section>
+          <section>
+            <h3>References + Links</h3>
+            <ul>
+              <li>MaterialsMine Charts Gallery</li>
+              <li>NanoMine Viewpoint article + link DOI and this is a long sentence to estimate the citation length</li>
+              <li>Jamie's ISWC paper + DOI + youtube</li>
+              <li>FAIR data + link DOI</li>
+              <li>SPARQL standard + link</li>
+              <li>Vega-Lite + Github link + DOI</li>
+            </ul>
+            <p style="font-size: 50%;">HTML presentation built using the <a href="https://revealjs.com/" target="_blank">RevealJS</a> library from <a href="https://github.com/hakimel/reveal.js" target="_blank">@hakimel</a>. 
+              Use the <span style="font-weight: bold;">spacebar</span> or <span style="font-weight: bold;">arrow keys</span> (or <span style="font-weight: bold;">swipe</span> on touch-based device) to navigate.
+              Press <span style="font-weight: bold;">o</span> or <span style="font-weight: bold;">Esc</span> for slide overview, or <span style="font-weight: bold;">s</span> to view speaker notes. 
+            </p>
+          </section>
+        </section>
+				
 			</div>
 		</div>
 

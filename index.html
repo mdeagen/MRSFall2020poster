@@ -26,7 +26,7 @@
               <p>Michael.Deagen@uvm.edu</p>
             </div>
             
-            <aside class="notes">My name is Michael Deagen, here to give you an overview of the platform for data visualization we have built for the MaterialsMine Knowledge Graph, an open data resource of curated materials research data.</aside>
+            <aside class="notes">My name is Michael Deagen, here to give you an overview of the new dataviz platform on our open materials science knowledge graph, MaterialsMine.</aside>
           </section>
           <section data-background="#000000">
             <p>Knowledge graphs enable a <span style="font-weight: bold;">web of <span style="font-style: italic;">data</span></span></p>
@@ -40,7 +40,7 @@
               <img class="fragment" data-fragment-index="3" data-autoslide="2000" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/KGs_W3C.svg">
             </div>
             
-            <aside class="notes">A knowledge graph database stores data and the links between data in an extensible, machine-readable format. By following semantic web standards, we enable interoperability between MaterialsMine and other publicly available datasets, now and in the future.</aside>
+            <aside class="notes">A knowledge graph database stores data and the links between data in a machine-readable format. By following semantic web standards, we enable interoperability between MaterialsMine and other open data resources.</aside>
           </section>
           <section data-autoslide="3500" data-background="#000000">
             <h2>Objectives</h2>
@@ -49,7 +49,7 @@
               <li data-autoslide="2500" class="fragment">Share information <span style="font-weight: bold;">visually</span> and <span style="font-weight: bold;">interactively</span></li>
               <li data-autoslide="3500" class="fragment">Build <span style="font-weight: bold;">collection</span> of FAIR data charts</li>
             </ul>
-            <aside class="notes">Our new data visualization platform helps us to explore our linked datasets, share information interactively from our knowledge graph, and build a collection of charts that take full advantage of our FAIR data framework.</aside>
+            <aside class="notes">Our new data visualization platform helps us to explore linked datasets, share information from our knowledge graph interactively, and build a collection of charts that take advantage of our FAIR data framework.</aside>
           </section>
         </section>
 				
@@ -94,7 +94,7 @@
               </p>
             </div>
 
-            <aside class="notes">Imagine you have to prepare a meal from scratch. You go to the market with your grocery list and add ingredients to your cart. When you get home, you prepare the ingredients following a recipe, finish cooking, and serve the meal.</aside>
+            <aside class="notes">Imagine you’re preparing a meal from scratch. You go to the market with your grocery list and add ingredients to your cart. After you follow the steps laid out in the recipe, you finally get to the enjoy the product of your hard work.</aside>
           </section>
           <section data-autoslide="6000" data-background="#fdfdfd">
             <p>Most charts provide <span style="font-weight: bold;">limited or no context</span> for data</p>
@@ -111,7 +111,7 @@
               <img src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/5a.svg">
             </div>
             
-            <aside class="notes">The problem with many charts you find is that they only provide one view of the data without a direct link to the raw data or how exactly those data were prepared.</aside>
+            <aside class="notes">The problem with many charts out there is that they provide the view of the data without embedding the raw data or how those data were encoded visually.</aside>
           </section>
           
           <section data-autoslide="6000" data-background="#fdfdfd">
@@ -165,7 +165,7 @@
               </p>
             </div>
 
-            <aside class="notes">With our platform, you can interact with the full process. We accomplish this by treating the market as our database, where the grocery list is the query, or request from the database. The groceries in your cart comprise the dataset returned by your query. The recipe is the chart specification that defines the visual encodings of the data, and the meal is the final chart.</aside>
+            <aside class="notes">With our platform, you can think of the market as our database. The grocery list is the query, or request from the database. The groceries in your cart comprise the dataset returned by that query, and the chart spec is the recipe that defines how the data are visually encoded. These combine to form the final chart view of the data.</aside>
           </section>
           <section data-autoslide="3000" data-background="#fdfdfd">
             <h2>Benefits</h2>
@@ -174,7 +174,7 @@
               <li data-autoslide="3500" class="fragment">Charts with <span style="font-weight: bold;">interactive elements</span></li>
               <li data-autoslide="4000" class="fragment"><span style="font-weight: bold;">Real-time updating</span> of chart data</li>
             </ul>
-            <aside class="notes">This approach to data visualization enables context for the data, the charts can be specified with interactive elements, and by embedding the data query a chart can be automatically updated if new data are added to the knowledge graph.</aside>
+            <aside class="notes">This approach to dataviz gives context to the data, allows charts to be specified with interactive elements, and by embedding the query a chart can be automatically refreshed as new data arrive.</aside>
           </section>
         </section>
 
@@ -186,7 +186,7 @@
               <img style="padding-left: 25px; padding-right: 25px;" src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/panel_Vega-Lite.svg">
               <img src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/panel_one-to-many.svg">
             </div>
-            <aside class="notes">The query, written in SPARQL, and the chart specification, written in Vega-Lite, are high-level abstractions that let you build charts with minimal lines of code. All the low-level implementation details are handled automatically by the query engine and chart renderer. Just as there are many ways to prepare food from the same ingredients, there are many ways to specify a chart from a given dataset.</aside>
+            <aside class="notes">The query, written in SPARQL, and the chart spec, written in Vega-Lite, are high-level abstractions that let you build custom charts with minimal lines of code while the low-level implementation details are managed under the hood. Just as there are many ways to prepare food from the same ingredients, there are many ways to specify a chart from a given dataset.</aside>
           </section>
           <section data-autoslide="13000" data-background="#000000">
             <p>Chart metadata (query, spec, title, description) added to knowledge graph, findable in <a href="https://materialsmine.org/wi/gallery" target="_blank">Charts Gallery</a></p>
@@ -194,7 +194,7 @@
               <img src="https://raw.githubusercontent.com/mdeagen/MRSFall2020poster/main/assets/chart-metadata-gallery.svg">
             </div>
             
-            <aside class="notes">When a chart is published to our platform, it becomes part of the knowledge graph and can be accessed through our Charts Gallery along with its metadata. With this approach, the knowledge graph grows as users create useful views of the underlying datasets, forming a positive feedback loop.</aside>
+            <aside class="notes">When charts are published to our platform, their metadata become part of the knowledge graph and can be found in our Charts Gallery. As a result, the knowledge graph continues to grow as users create useful views of datasets.</aside>
           </section>
         </section>
         
@@ -232,7 +232,7 @@
               </div>
             </div>
             
-            <aside class="notes">Thank you to everyone who has contributed to this work and to all those out there advancing FAIR data practices in the materials research community. For more information about this project visit materialsmine.org.</aside>
+            <aside class="notes">Thank you to everyone who has contributed to this work and to all those out there advancing FAIR data practices in the materials community. For more information about this project visit materialsmine.org.</aside>
           </section>
           <section>
             <h3>References + Links</h3>
